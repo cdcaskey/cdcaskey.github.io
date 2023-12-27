@@ -1,0 +1,16 @@
+baseURL: https://example.org/
+languageCode: en-gb
+title: Chris Caskey
+theme: hugo-PaperMod
+
+params:
+    profileMode:
+        enabled: true
+        subtitle: "Hello World"
+        imageWidth: 120 # custom size
+        imageHeight: 120 # custom size
+        buttons:
+            - name: Archive
+              url: "/archive"
+            - name: Github
+              url: "https://github.com/"
