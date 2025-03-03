@@ -1,10 +1,10 @@
 ---
-created: 2025-03-03 22:57
-aliases:
-tags:
+created: 2025-03-03 23:11
+aliases: 
+tags: 
 blogPost: true
 draft: false
-date: 2025-03-03 22:57
+date: 2025-03-03
 title: Bloggy Post
 ---
 
