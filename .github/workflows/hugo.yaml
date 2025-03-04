@@ -45,6 +45,16 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+      - name: Checkout Notes
+        uses: actions/checkout@v4
+        with:
+          repository: cdcaskey/not-notes
+          token: ${{ secrets.NOTES_GITHUB_TOKEN }}
+          fetch-depth: 0
+          branch: notes
+          path: obsidian-notes
+      - name: Copy Notes to Posts
+        run: bash copy-blog-posts.sh
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
