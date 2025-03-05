@@ -1,6 +1,0 @@
-baseURL: https://cdcaskey.github.io/
-languageCode: en-gb
-title: Chris Caskey
-theme: hugo-theme-monochrome
-params:
-  footer: 'Chris Caskey | <a href="https://github.com/cdcaskey">GitHub</a> | <a href="https://www.linkedin.com/in/christopher-caskey">LinkedIn</a>'
