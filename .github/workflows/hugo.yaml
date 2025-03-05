@@ -48,10 +48,11 @@ jobs:
       - name: Checkout Notes
         uses: actions/checkout@v4
         with:
-          repository: cdcaskey/not-notes
+          repository: cdcaskey/personal-notes
           token: ${{ secrets.NOTES_GITHUB_TOKEN }}
           fetch-depth: 0
           path: obsidian-notes
+          ref: notes
       - name: Copy Notes to Posts
         run: bash copy-blog-posts.sh
       - name: Setup Pages
