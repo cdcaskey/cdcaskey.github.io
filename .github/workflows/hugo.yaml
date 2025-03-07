@@ -53,6 +53,8 @@ jobs:
           fetch-depth: 0
           path: obsidian-notes
           ref: notes
+      - name: Delete Dev Content
+        run: bash delete-dev-content.sh
       - name: Copy Notes to Posts
         run: bash copy-blog-posts.sh
       - name: Setup Pages
